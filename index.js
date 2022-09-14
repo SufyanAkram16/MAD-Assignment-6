@@ -35,3 +35,33 @@
 //     }
 //     i++;
 // }
+// 6. Write a ts program to find sum of all natural numbers between 1 to n.
+// var n:number = 111;
+// var sum:number = 0;
+// for (let i = 1; i <= n; i++){
+//     sum = sum + i;
+// }
+// console.log(sum);
+// 7. Write a ts program to find sum of all even numbers between 1 to n.
+// var n:number = 100;
+// var sumOfEven:number = 0;
+// for (let i = 1; i <= n; i++){
+//     if(i % 2 == 0){
+//         sumOfEven = sumOfEven + i;
+//     }
+// }
+// console.log(sumOfEven);
+// 8. Write a ts program to find sum of all odd numbers between 1 to n.
+// var n:number = 100;
+// var sumOfOdd:number = 0;
+// for( let i=1; i<= n; i++){
+//     if(i % 2 != 0){
+//         sumOfOdd += i;
+//     }
+// }
+// console.log(sumOfOdd);
+// 9. Write a ts program to print multiplication table of any number.
+var n = 2;
+for (var i = 1; i <= 10; i++) {
+    console.log(n + " x " + i + " = " + (i * n));
+}
