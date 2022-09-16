@@ -98,7 +98,107 @@
 
 // 9. Write a ts program to print multiplication table of any number.
 
-var n:number = 2;
-for( let i = 1; i<=10; i++){
-    console.log(n + " x " + i + " = " + (i*n));
+// var n:number = 2;
+// for( let i = 1; i<=10; i++){
+//     console.log(n + " x " + i + " = " + (i*n));
+// }
+
+
+// 10. Write a ts program to count number of digits in a number.
+
+// var number:number = 156;
+// var dig:number = number.toString().length;
+// console.log(dig);
+
+
+
+
+// 11. Write a ts program to find first and last digit of a number.
+
+// var number:number = 5464;
+// var dig:string = number.toString();
+// var firstDigit:number = Number(dig.charAt(0));
+// var lastDigit:number = Number(dig.charAt(dig.length-1));
+
+// console.log("The first digit of " + number +" is " + firstDigit + " and last digit of " + number + " is " + lastDigit );
+
+
+
+
+//  12. Write a ts program to find sum of first and last digit of a number.
+
+// var num:number = 454643513156;
+
+// var str:string = num.toString();
+
+// var firstDigit:number = Number(str.charAt(0));
+
+// var lastDigit:number = Number(str.charAt(str.length-1));
+
+// var sum:number = firstDigit + lastDigit;
+
+// console.log(sum);
+
+
+
+// 13. Write a ts program to swap first and last digits of a number.
+
+// var num:string|null = prompt("Enter a number");
+// let temp:string = "";
+// let answer:string = ""; 
+
+// for(let i = 0; i< num!.length; i++){
+//     if(i == 0){
+//         temp = num![i];
+//     }
+//     else if(i == num!.length-1 ){
+//         answer = answer + temp;
+//         answer = num![i] + answer;
+//     }
+//     else{
+//         answer = answer + num![i];
+//     }
+// }
+
+// console.log(answer);
+
+
+
+// 14. Write a ts program to calculate sum of digits of a number.
+
+// var num:number = 7895;
+// var temp:string = num.toString();
+
+// var sum = 0;
+
+// for(let i = 0; i<temp.length; i++){
+//     sum = sum + parseInt(temp[i]);
+// }
+
+// console.log(sum);
+
+
+// 15. Write a ts program to calculate product of digits of a number.
+
+// var num:number = 456483;
+// var temp:string = num.toString();
+
+// var product:number = 1;
+
+// for( let i = 0; i < temp.length; i++){
+//     product *= parseInt(temp[i]);
+// }
+// console.log(product);
+
+
+
+//16. Write a ts program to enter a number and print its reverse.
+
+var num:number = 1234561122;
+var temp1:string = num.toString();
+let reverse:string = "";
+
+for(let i=temp1.length-1; i>=0; i--){
+    reverse = reverse + temp1[i]
 }
+console.log(reverse);
